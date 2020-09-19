@@ -1,0 +1,60 @@
+.card-title {
+  padding: 5px 22px 5px 22px !important;
+}
+
+.log-text { 
+  padding-top: 0.625rem !important;
+  white-space: pre-line;
+  letter-spacing: 1px;
+  word-spacing: 4px;  
+  background-color: #0c0c0c;
+  font-family: Consolas;
+  .log-data {
+    color: #ccc;
+    font-size: 20px;
+  }
+}
+
+.no-logs {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #ccc;
+  margin-top: 1rem;
+}
+
+.custom-loader {
+  animation: loader 1s infinite;
+  display: flex;
+}
+@-moz-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
